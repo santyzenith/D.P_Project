@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 import pytest
 from recommendation import get_recommendations
 from models import load_model, load_movies, load_faiss_index
