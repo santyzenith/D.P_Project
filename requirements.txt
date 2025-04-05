@@ -1,0 +1,6 @@
+torch
+pydantic
+sentence-transformers
+fastapi
+pytest
+pytest-cov
